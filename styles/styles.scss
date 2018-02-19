@@ -1,0 +1,35 @@
+@import "~angular2-toaster/toaster";
+@import "sass/caas-icons";
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+}
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+//@import '~flag-icon-css/css/flag-icon.css';
+ul.list-group {
+    margin-left: 0;
+}
+
+.context-description {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.context-description,
+.context-icon-link i {
+    color: #006835
+}
+
+UL LI {
+    list-style-type: none;
+}
+
+.flag-icon {
+    width: 25px;
+    height: 15px;
+}
